@@ -45,3 +45,41 @@ div p {
   font-size: 1rem;
   margin-bottom: 0;
 }
+
+/* Position the logo in the top left corner */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+/* Style the logo */
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Add a navigation bar */
+nav {
+  background-color: var(--primary-blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
