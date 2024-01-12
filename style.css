@@ -46,7 +46,7 @@ div p {
   margin-bottom: 0;
 }
 
-/* Position the logo in the top left corner */
+/* Style the logo */
 .logo {
   position: absolute;
   top: 0;
@@ -54,7 +54,6 @@ div p {
   padding: 1rem;
 }
 
-/* Style the logo */
 .logo img {
   height: 50px;
   width: auto;
@@ -62,16 +61,20 @@ div p {
 
 /* Add a navigation bar */
 nav {
-  background-color: var(--primary-blue);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
+  position: relative;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav li {
@@ -79,7 +82,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: var(--primary-blue);
   text-decoration: none;
   font-size: 1.25rem;
 }
