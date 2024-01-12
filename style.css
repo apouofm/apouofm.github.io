@@ -46,43 +46,38 @@ div p {
   margin-bottom: 0;
 }
 
-/* Style the logo */
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-}
-
-.logo img {
-  height: 50px;
-  width: auto;
-}
-
-/* Add a navigation bar */
 nav {
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 nav ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  overflow: hidden;
 }
 
 nav li {
-  margin: 0 1rem;
+  float: right;
 }
 
-nav a {
-  color: var(--primary-blue);
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.25rem;
+}
+
+nav li a:hover {
+  background-color: #111;
 }
