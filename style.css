@@ -126,6 +126,7 @@ nav li a:hover {
   height: 5px;
   background-color: white;
   margin: 6px 0;
+  transition: all 0.3s ease;
 }
 
 #nav-links {
