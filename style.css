@@ -115,3 +115,48 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+
+#nav-icon {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#nav-icon div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+#nav-links {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  background-color: #333;
+}
+
+#nav-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-links li a:hover {
+  background-color: #111;
+}
+
+#nav-links.show {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  #nav-icon {
+      display: none;
+  }
+
+  #nav-links {
+      display: block !important;
+  }
+}
