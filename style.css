@@ -129,6 +129,24 @@ nav li a:hover {
   transition: all 0.3s ease;
 }
 
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-logo, #nav-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#nav-icon div {
+  width: 70%;
+  height: 15%;
+  margin: 10% auto;
+  background-color: white;
+}
+
 #nav-links {
   display: none;
   list-style-type: none;
