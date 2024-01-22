@@ -127,6 +127,13 @@ nav li a:hover {
   height: 50px;
 }
 
+nav img {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
 #nav-icon div {
   width: 70%;
   height: 15%;
