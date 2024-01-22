@@ -116,19 +116,6 @@ nav li a:hover {
   background-color: #111;
 } */
 
-#nav-icon {
-  cursor: pointer;
-  display: inline-block;
-}
-
-#nav-icon div {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: all 0.3s ease;
-}
-
 #nav-container {
   display: flex;
   justify-content: space-between;
