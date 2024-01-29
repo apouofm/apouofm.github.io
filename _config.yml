@@ -18,17 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: APOUofM
-email: egeiss@umich.edu
+title: 'apouofm'
+logo: 'assets/images/apouofm_logo.png'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apouofm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "apouofm.com/"
 twitter_username: apo_uofm
 github_username:  apoUofM
 
 # Build settings
-theme: minima
+# theme: jekyll-theme-modernist
+# theme: minimal-mistakes-jekyll
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "daviddarnes/alembic@main"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-includes-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Executive Board Members of Alpha Phi Omega - Gamma Pi
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Here are the executive board members of Alpha Phi Omega - Gamma Pi:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+-   -   President: Elise Hockin​g
+-   -   VP of Operations: Bella Celestre
+-   -   VP of Membership: Eli Friedstrom
+-   -   VP of Finance: Miles Low
+-   -   VP of Communications: Piper Miller
+-   -   VP of New Members: Alexis Mountford
+-   -   VP of Internal Service: Nina Pacheco
+-   -   VP of Fellowship: Maeve Phelan
+-   -   VP of External Service: Rida Pervez
 
-
-[jekyll-organization]: https://github.com/jekyll
+For more information about each board member, please visit our [Executive Board](/executive-board) page.
