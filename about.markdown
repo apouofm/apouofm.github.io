@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 # Executive Board Members of Alpha Phi Omega - Gamma Pi
