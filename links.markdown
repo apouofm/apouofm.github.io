@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Important Links
+title: Links
 ---
 
 ## Here are some links that might be helpful
