@@ -1,0 +1,128 @@
+:root {
+  --primary-blue: #0033A0;
+  --primary-yellow: #FFD700;
+}
+
+body {
+  background-color: var(--primary-blue);
+}
+
+h1 {
+  color: var(--primary-yellow);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+div {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+div h1, div h4, div h5 {
+  color: var(--primary-blue);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+div p {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+div #app_link {
+  color: var(--primary-blue);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; /* Add padding for spacing */
+  background-color: transparent; /* Set background color to transparent */
+}
+
+#nav-logo, #nav-icon {
+  width: 50px;
+  height: 50px;
+  color: var(--primary-blue);
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+#nav-links {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  background-color: var(--primary-blue);
+}
+
+#nav-links li {
+  margin-left: 1rem; /* Add margin between links */
+}
+
+#nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#nav-links li a:hover {
+  background-color: #111;
+}
+
+#nav-links.show {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  #nav-icon {
+    display: none;
+  }
+
+  #nav-links {
+    display: block !important;
+  }
+}

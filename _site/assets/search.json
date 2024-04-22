@@ -1,0 +1,61 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Welcome to the New Pledges!",
+        "excerpt": "We are excited to announce that the rush period has officially come to an end. We want to extend a warm welcome to all the new pledges who have joined our organization. We are thrilled to have you on board and look forward to an amazing journey together.\n\n",
+        "content": "We are excited to announce that the rush period has officially come to an end. We want to extend a warm welcome to all the new pledges who have joined our organization. We are thrilled to have you on board and look forward to an amazing journey together.\n\nEmbracing New Beginnings\n\nAs we embark on this new chapter, we encourage all the new pledges to embrace the opportunities and challenges that lie ahead. This is a time for growth, learning, and building lifelong friendships. We believe that each and every one of you has the potential to make a positive impact within our community.\n\nGetting Started\n\nTo get started, please familiarize yourself with our organization’s values, mission, and guidelines. We have a series of exciting events and activities planned to help you integrate into our community and get to know your fellow pledges. Stay tuned for more information and updates.\n\nOnce again, welcome to the family! Let’s make this a memorable and rewarding experience for everyone.\n",
+        "url": "/2024/01/21/welcome-new-pledges.html"
+      },
+    
+      {
+        "title": "Bylaws Committee",
+        "excerpt": "We are excited to announce the formation of a Bylaws Committee to rewrite our fraternity chapter’s bylaws. This committee will be responsible for reviewing and updating our current bylaws to ensure they align with our chapter’s values and goals.\n\n",
+        "content": "We are excited to announce the formation of a Bylaws Committee to rewrite our fraternity chapter’s bylaws. This committee will be responsible for reviewing and updating our current bylaws to ensure they align with our chapter’s values and goals.\n\nThe committee will consist of dedicated members who are passionate about shaping the future of our fraternity. They will work collaboratively to draft, revise, and finalize the new set of bylaws.\n\nIf you are interested in joining the Bylaws Committee or have any suggestions or ideas, please reach out to egeiss@umich.edu. We value your input and look forward to your participation.\n\nStay tuned for updates on the committee’s progress and important dates related to the bylaws revision process. Together, we can create a stronger and more inclusive fraternity chapter.\n\nThank you for your support!\n\n",
+        "url": "/fraternity/bylaws/2024/02/16/bylaws-committee.html"
+      },
+    
+  
+  
+  
+  {
+    "title": "Bylaws",
+    "excerpt": "\n",
+    "content": "Bylaws Committee\n\nThe Bylaws Committee is responsible for reviewing and updating the organization’s bylaws. This committee ensures that the bylaws accurately reflect the organization’s current practices and comply with any legal requirements.\n\nCommittee Co-Chairs\n\n\n  Evan Geiss\n  Cynthia Fout\n\n\nMeeting Schedule\n\nThe Bylaws Committee meets on the first Monday of every month at 6:00 PM. Meetings are held in the organization’s conference room.\n\nBylaws Document\n\nThe current version of the organization’s bylaws can be found on our Google Drive. Please note that access to the document may require permission from the organization’s administrators.\n\nIf you have any questions or suggestions regarding the bylaws, please contact the Bylaws Committee Chair, Evan Geiss, at egeiss@umich.edu.\n",
+    "url": "/bylaws.html"
+  },
+  
+  {
+    "title": "Executive Board",
+    "excerpt": "\n",
+    "content": "Executive Board Members of Alpha Phi Omega - Gamma Pi\n\nHere are the executive board members of Alpha Phi Omega - Gamma Pi:\n\n\n  President: Elise Hockin​g\n  VP of Operations: Bella Celestre\n  VP of Membership: Eli Friedstrom\n  VP of Finance: Miles Low\n  VP of Communications: Piper Miller\n  VP of New Members: Alexis Mountford\n  VP of Internal Service: Nina Pacheco\n  VP of Fellowship: Maeve Phelan\n  VP of External Service: Rida Pervez\n\n\nFor more information about each board member, please visit our Executive Board page.\n",
+    "url": "/exec.html"
+  },
+  
+  {
+    "title": "Home",
+    "excerpt": "\n",
+    "content": "Alpha Phi Omega @ UofM\n\nAlpha Phi Omega is a national coeducational service organization founded on the principles of Leadership, Friendship and Service.\n\nWhat is APO?\n\nAlpha Phi Omega (APO) is the largest collegiate fraternity in the United States, with over 350 active chapters and more than 25,000 members. APO is dedicated to developing leaders, promoting friendship, and providing service to the community.\n\nOur Values\n\n\n  Leadership: APO empowers its members to become effective leaders in their communities and beyond.\n  Friendship: APO fosters lifelong friendships and a sense of belonging among its members.\n  Service: APO encourages its members to actively engage in service projects that make a positive impact on society. Our mission is to provide volunteer service within four areas: service to the community, service to the campus, service to the fraternity, and service to the nation as participating citizens.\n\n\nContact Us\n\nTo learn more or join our community, please vist us on Instagram or find us on MaizePages.\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Important Links",
+    "excerpt": "\n",
+    "content": "Here are some links that might be helpful\n\nReimbursement Form\n\n\n  email this to Miles\n\n",
+    "url": "/links.html"
+  },
+  
+  {
+    "title": "News",
+    "excerpt": "\n",
+    "content": "News &amp; Updates\n\n{% for post in site.posts %}\n\n{{ post.title }}\n\n\n  \n    \n      {{ post.date\n      date: “%B %-d, %Y” }}\n    \n  \n\n\n{{ post.excerpt }}\n{% endfor %}\n",
+    "url": "/updates.html"
+  }
+  
+]
+
