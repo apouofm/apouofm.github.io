@@ -4,7 +4,7 @@ title: Home
 ---
 ## Alpha Phi Omega @ UofM
 
-Alpha Phi Omega is a national coeducational service organization founded on the principles of Leadership, Friendship and Service.
+Alpha Phi Omega is a national coeducational gender inclusive service fraternity founded on the principles of Leadership, Friendship, and Service.
 
 ## What is APO?
 
@@ -18,4 +18,4 @@ Alpha Phi Omega (APO) is the largest collegiate fraternity in the United States,
 
 #### Contact Us
 
-To learn more or join our community, please vist us on [Instagram](https://www.instagram.com/apouofm/) or find us on [MaizePages](https://maizepages.umich.edu/organization/alphaphiomega).
+To learn more or join our brotherhood, please vist us on [Instagram](https://www.instagram.com/apouofm/) or find us on [MaizePages](https://maizepages.umich.edu/organization/alphaphiomega).
