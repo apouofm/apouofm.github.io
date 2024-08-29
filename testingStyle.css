@@ -1,4 +1,4 @@
-@import 'bulma/bulma';
+@import './frameworks/bulma.min.css';
 
 :root {
     --primary-blue: #0033A0;
@@ -28,3 +28,61 @@
     margin-bottom: 0;
     text-align: center;
   }
+
+/* Ensure that the navbar-menu is hidden by default on small screens */
+.navbar-menu {
+  display: none;
+}
+
+/* Show the navbar-menu when it's active (after clicking the burger) */
+.navbar-menu.is-active {
+  display: block;
+}
+
+/* Only show the hamburger menu on screens smaller than 769px */
+@media screen and (max-width: 768px) {
+  .navbar-burger {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none; /* Hide the menu by default */
+  }
+
+  .navbar-menu.is-active {
+    display: block; /* Show the menu when it’s activated */
+  }
+}
+
+/* On screens larger than 768px, hide the hamburger and show menu items horizontally */
+@media screen and (min-width: 769px) {
+  .navbar-burger {
+    display: none; /* Hide the hamburger menu */
+  }
+
+  .navbar-menu {
+    display: flex !important; /* Flexbox for horizontal layout */
+    justify-content: flex-end; /* Align items to the right */
+    flex-wrap: nowrap; /* Prevent the items from wrapping to a new line */
+  }
+
+  /* Ensure that the navbar items within the navbar-end are displayed inline (horizontally) */
+  .navbar-end {
+    display: flex; /* Flexbox for horizontal arrangement of the menu items */
+    gap: 1rem; /* Optional: Adjust space between the items */
+    flex-wrap: nowrap; /* Prevent the items from wrapping */
+  }
+
+  .navbar-item {
+    align-items: center; /* Vertically align the menu items */
+    padding-left: 0.75rem; /* Adjust padding to ensure items fit */
+    padding-right: 0.75rem; /* Adjust padding to ensure items fit */
+  }
+
+  /* Optionally reduce font-size or adjust width of items */
+  .navbar-item {
+    font-size: 1rem; /* Adjust as necessary */
+  }
+}
+
+
