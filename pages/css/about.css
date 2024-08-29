@@ -1,0 +1,46 @@
+@import 'bulma/bulma';
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-section h3 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.about-section div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-join .button {
+    max-inline-size: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.about-eboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem; /* Adjusts spacing between the grid items */
+    margin: 0 1rem; /* Optional: To align with the current design */
+}
+
+.eboard-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Optional: Adds a background color to each card */
+    border-radius: 8px; /* Optional: Rounds the corners of each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a card effect */
+}
+
